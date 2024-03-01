@@ -314,11 +314,11 @@ body{
   	transform: translateX(110%);
   	opacity: 0;
   	transition: all 0.5s ease-in;
+	position: absolute;
+  	z-index: 9999999;
   }
 
    .active .nav-bar-list{
-   	/*position: absolute;
-    left: -999em;*/
   	transform: translateX(0);
   	opacity: 1;
   }
