@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LP Testing</title>
+
+		<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.green.css">
+
+	<!-- jquery -->
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+
+			<!-- Font-Family -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<!--Start Header Section -->
+	<header class="container">
+		<div class="header">
+					<div class="header-account">
+						<div class="header-sign-in">
+							<a href="#" target="_blank">Sign in</a>
+						
+						</div>
+						<div class="header-sign-up">
+							<a href="#">Sign up</a>
+						</div>
+						
+					</div>
+					
+				
+		</div>
+	</header>
+
+	<!-- End Header Section -->
+
+	<!-- Start navigation Section -->
+	<nav>
+		<div class="container">
+			<div class="nav-bar">
+				<div class="nav-bar-menu">
+					<div class="nav-bar-logo">
+						<a href="#" target="_blank"><img src="IMG/logo.png" alt="logo" ></a>
+						
+					</div>
+					<div class="nav-bar-list">
+						<ul class="nav-bar-ul-list">
+							<li><a href="#">
+								Home
+									<span><img src="IMG/dropdown-sign.svg"></span>
+									
+								</a>
+								<ul class="dropdown-ul-list">
+										<li><a href="#" target="_blank">list 1</a></li>
+										<li><a href="#" target="_blank">list 2</a></li>
+								
+								</ul>	
+							</li>
+							<li><a href="#">
+								Services
+									<span><img src="IMG/dropdown-sign.svg"></span>
+									<ul class="dropdown-ul-list">
+										<li><a href="#" target="_blank">list 1</a></li>
+										<li><a href="#" target="_blank">list 2</a></li>
+										
+									</ul>
+								</a>
+							</li>
+							<li><a href="#">
+									Blog
+									<span><img src="IMG/dropdown-sign.svg"></span>
+									<ul class="dropdown-ul-list">
+										<li><a href="#" target="_blank">list 1</a></li>
+										<li><a href="#" target="_blank">list 2</a></li>
+										
+									</ul>
+								</a>
+							</li>
+							<li><a href="#">
+								About us
+									<span><img src="IMG/dropdown-sign.svg"></span>
+									<ul class="dropdown-ul-list">
+										<li><a href="#" target="_blank">list 1</a></li>
+										<li><a href="#" target="_blank">list 2</a></li>
+										
+									</ul>
+								</a>
+							</li>
+						</ul>
+						
+					</div>
+			
+				</div>
+				<div class="navbarhamburger">
+					<div class="ham-bar1">
+			
+					</div>
+					<div class="ham-bar2">
+							
+					</div>
+					<div class="ham-bar3">
+						
+					</div>
+				</div>
+				
+				
+				
+			</div>	
+		</div>
+		
+	</nav>
+
+	<!-- End navigation Section -->
+
+
+	<!-- Start Carousel Section -->
+	<div class="container">
+		<div class="caro-container">
+		<div class="owl-carousel owl-theme">
+		    <div class="item"><img src="IMG/img1.png" width="300"></div>
+		    <div class="item"><img src="IMG/img2.png"></div>
+		    <div class="item"><img src="IMG/img3.png"></div>
+		    <div class="item"><img src="IMG/img1.png"></div>
+		    <div class="item"><img src="IMG/img2.png"></div>
+		    <div class="item"><img src="IMG/img3.png"></div>
+		    <div class="item"><img src="IMG/img1.png"></div>
+		    
+		</div>
+	</div>
+	</div>
+	
+
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript">
+	
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+   
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+        	items:3
+        },
+    }
+    
+})
+</script>
+</body>
+</html>
