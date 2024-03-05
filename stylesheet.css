@@ -21,7 +21,7 @@ body{
 
 /*navigation-bar-section*/
 
-nav{
+header{
 	padding:15px;
 }
 
@@ -47,21 +47,6 @@ nav{
 	padding: 15px;
 	z-index: 2;
 }
-
-
-/*.dropdown-1{
-	list-style: none;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 20px;
-	color: white;
-	visibility: hidden;
-	opacity: 0;
-	position: absolute;
-	top: 70px;
-	border-radius: 5px;
-}*/
 
 .dropdown-ul-list{
   position: absolute;
