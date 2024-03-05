@@ -21,9 +21,8 @@ body{
 
 /*navigation-bar-section*/
 
-.nav-bar{
-	
-
+nav{
+	padding:15px;
 }
 
 .nav-bar-menu{
